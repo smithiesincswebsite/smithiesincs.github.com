@@ -236,7 +236,7 @@ body {
   height: 120px;
   overflow-x: auto;
   overflow-y: hidden;
-  width: 65%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -245,7 +245,7 @@ body {
 .categories__category,
 .tags__tag {
   background-color: var(--color_primaryAcent);
-    width: 130px;
+    width: 160px;
   padding: 15px;
   border-radius: 50px;
   text-align: center;
