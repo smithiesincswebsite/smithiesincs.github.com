@@ -12,6 +12,23 @@
   font-family: 'Roboto', 'Open Sans', Arial, Helvetica;
 }
 
+a{
+    font-family: 'Oldenburg', cursive;
+}
+
+h2{
+    font-family: 'Oldenburg', cursive;
+}
+h3{
+    font-family: 'Oldenburg', cursive;
+}
+p{
+    font-family: 'Zilla Slab', serif;
+}
+li{
+    font-family: 'Zilla Slab', serif;
+}
+
 body {
   background-color: var(--color_secondaryDark);
 }
@@ -98,13 +115,15 @@ body {
 
 .main-header__title {
   color: var(--color_primaryAcent);
-  font-size: 9em;
-  font-weight: bold;
+  font-size: 10em;
   text-align: center;
+  font-family: 'Oleo Script Swash Caps', cursive;
 }
 
 .main-header__description{
   color: var(--color_primaryAcent);
+  font-size: 2em;
+  font-family: 'Oldenburg', cursive;
 }
 
 .main-header__background {
