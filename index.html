@@ -30,8 +30,8 @@
     <h1 
         class="main-header__title">
         Smithies in CS</h1>
-    <p class="main-header__description">
-        The official website for Smith College student organization Smithies in CS.</p>
+    <h2 class="main-header__description">
+        The official website for Smith College student organization Smithies in CS.</h2>
 </header>
 <main class="main-content">
     <section class="categories index">
@@ -60,9 +60,9 @@
         </div>
     </section>
     
-    <div class="sectionContent">
+    <div class="callbacks_container">
             <div id="sliderWrapper" align="center">
-                <ul class="rslides" id="slider1">
+                <ul class="rslides" id="slider4">
                   <li> <img src="images/slider/pic1.jpg" alt="">
                   </li>
                   <li> <img src="images/slider/pic1.png" alt="" height="400px" width="700pxs">
@@ -160,7 +160,7 @@
         27 May 2018</time>
 </article>
         
-
+<!--
         <nav class="pagination" >
             <a 
                 class="pagination__link pagination__link--prev" 
@@ -183,6 +183,7 @@
                 title="Next">></a>
         </nav>
     </section>
+-->
 </main>
 <footer class="main-footer">
     <address class="social-icons">
@@ -272,9 +273,23 @@
     <script src="scripts/jquery-1.11.2.min.js"></script>
     <script src="scripts/responsiveslides.js"></script>
 	<script>
-        // Slideshow 1
+        // Slideshow 4
+        $("#slider4").responsiveSlides({
+        auto: false,
+        pager: false,
+        nav: true,
+        speed: 500,
+        namespace: "callbacks",
+        before: function () {
+          $('.events').append("<li>before event fired.</li>");
+        },
+        after: function () {
+          $('.events').append("<li>after event fired.</li>");
+        }
+      });
+        /*
         $(function () {
-            $("#slider1").responsiveSlides({
+            $("#slider3").responsiveSlides({
                 auto: true,
                 //pager: true,
                 speed: 800,
@@ -282,7 +297,7 @@
                 maxwidth: 700,
                 namespace: "centered-btns"
             });
-        });
+        }); */
     </script>
         
 	<script src="scripts/script.js"></script>
