@@ -22,6 +22,9 @@ h2{
 h3{
     font-family: 'Oldenburg', cursive;
 }
+h4{
+    font-family: 'Oldenburg', cursive;
+}
 p{
     font-family: 'Zilla Slab', serif;
 }
@@ -71,6 +74,11 @@ body {
   color: var(--color_primaryAcent);
   display: flex;
   justify-content: space-around;
+}
+
+.copyright-footer{
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .navbar {
@@ -197,6 +205,14 @@ body {
 .posts__post__day,
 .posts__post__category {
   color: var(--color_secondaryMiddle);
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 25%;
+}
+
+.post_keywords{
+  color: var(--color_secondaryMiddle);
+  font-size: 1.8em;
   width: 50%;
   margin-top: 10px;
   margin-left: 25%;
@@ -664,3 +680,40 @@ strong{
   background-position: right top;
   right: 20%;
   }
+
+
+#toc_container{
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+}
+
+.toc_container{
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.toc_title{
+    color: dimgrey;
+    font-size: 180%;
+    font-weight: 700;
+    text-align:center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li,{
+    list-style: outside none none !important;
+}
+
+#toc_container a{
+    color: dimgrey;
+}
+
+li.blog_para {
+    list-style: circle;
+    color: black;
+}
