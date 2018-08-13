@@ -12,6 +12,17 @@
   font-family: 'Roboto', 'Open Sans', Arial, Helvetica;
 }
 
+body{
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+main{
+   min-height:100%; 
+   position:relative;
+}
+
 a{
     font-family: 'Oldenburg', cursive;
 }
@@ -716,4 +727,44 @@ strong{
 li.blog_para {
     list-style: circle;
     color: black;
+}
+
+.credit{
+    color: dimgrey;
+    margin-right: 30px; 
+    margin-left: 30px;
+}
+
+a.credit_a{
+    color: dodgerblue;
+    font-size: 0.8em;
+}
+
+a.blog_para{
+    color: dodgerblue;
+    font-size: 0.8em;
+}
+
+p.blog_para{
+    color: black;
+    margin-right: 35px; 
+    margin-left: 35px;
+}
+
+h2.blog_para{
+    color: black;
+    margin-right: 30px; 
+    margin-left: 30px;
+}
+
+h3.blog_para{
+    color: black;
+    margin-right: 30px; 
+    margin-left: 30px;
+}
+
+h4.blog_para{
+    color: black;
+    margin-right: 35px; 
+    margin-left: 35px;
 }
