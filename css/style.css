@@ -768,3 +768,55 @@ h4.blog_para{
     margin-right: 35px; 
     margin-left: 35px;
 }
+
+.blog_question_img{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    width: 40px;
+    height: auto;
+    float: left;
+}
+
+#bio_container{
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+}
+
+.bio_container{
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.bio_title{
+    color: dimgrey;
+    font-size: 180%;
+    font-weight: 700;
+    text-align:center;
+}
+
+#bio_container li, #bio_container ul, #bio_container ul li,{
+    list-style: outside none none !important;
+}
+
+#bio_container a{
+    color: dodgerblue;
+    font-size: 0.9em;
+}
+
+.bio_container{
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.pagination_container {
+  margin-bottom: 50px;
+  position: relative;
+  float: left;
+}
