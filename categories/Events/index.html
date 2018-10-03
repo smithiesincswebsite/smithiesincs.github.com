@@ -57,10 +57,11 @@
                     </ul>
         <!-- Day -->
                     <ul class="days">  
-                      
+                      <li>&nbsp</li>
+					  <li>1</li>
                       <li>2</li>
                       <li>3</li>
-                      <li>4</li>
+					  <li><span id="button4" class="button_calendar">4</span></li>
                       <li>5</li>
                       <li>6</li>
                       <li>7</li>
@@ -69,21 +70,21 @@
                       <li>10</li>
                       <li><span id="button11" class="button_calendar">11</span></li>
                       <li>12</li>
-                      <li>13</li>
+					  <li><span id="button13" class="button_calendar">13</span></li>
                       <li>14</li>
-					  <li><span id="button15" class="button_calendar">15</span></li>
+					  <li>15</li>
                       <li>16</li>
-					  <li><span id="button17" class="button_calendar">17</span></li>
-                      <li>18</li>
-					  <li><span id="button19" class="button_calendar">19</span></li>
-                      <li>20</li>
+					  <li>17</li>
+					  <li><span id="button18" class="button_calendar">18</span></li>
+					  <li>19</li>
+					  <li><span id="button20" class="button_calendar">20</span></li>
                       <li>21</li>
                       <li>22</li>
                       <li>23</li>
                       <li>24</li>
-                      <li>25</li>
+					  <li><span id="button25" class="button_calendar">25</span></li>
                       <li>26</li>
-                      <li>27</li>
+					  <li><span id="button27" class="button_calendar">27</span></li>
                       <li>28</li>
                       <li>29</li>
                       <li>30</li>
@@ -92,7 +93,36 @@
                 </div>
 
 
-  <!-- Event Model: Sep 11 -->
+  <!-- Event Model: Oct 04 -->
+                <div class="modal" id="modal4" >
+                    <div class="modal_content">
+                      <div class="modal_header">
+                        <div class="modal_close" id="modal_close4" style="cursor: pointer;">&times;</div>
+                        <h2 class="modal-title" id="myModalLabel" style="color: dimgrey; margin: auto; margin-left: 30px">Event Preview</h2>
+                      </div>
+                      <div class="modal-body">
+                          <ul class="day_event">
+							<img src="../../images/events/techlunchseries.jpg%20Preview,%20Today%20at%2011.15.28%20PM.png" style="width: 700px; height: auto">
+							<li><br></li>
+                            <li><strong>Event Titile:</strong> &#8194;&#8194;Tech Lunch Series </li>
+                            <li><strong>Time:</strong> &#8194;&#8194;12:00p.m. - 1:00p.m.</li>
+                            <li><strong>Location:</strong> &#8194;&#8194;Seelye 110</li>
+                            <li><strong>Notes: </strong> &#8194;&#8194;Pizza will be served. </li>
+                            <li><strong>Description:</strong>  &#8194;&#8194;Smithies in CS's Tech Lunch Series is back!!!<br><br>Want to know how to write a technical resume without any industry experiences? Want someone to teach you how to prepare for interviews? Want to learn how to find research opportunities, such as SURF and REU? ..... and if you want to know so many other things, come join us!!!</li>
+                          </ul>
+						 
+                      </div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    document.getElementById("button4").onclick = function(){
+                        document.getElementById("modal4").style.display = "block";
+                    }
+                    document.getElementById("modal_close4").onclick = function(){
+                        document.getElementById("modal4").style.display = "none";
+                    }
+                </script>
+<!-- Event Model: Oct 11 -->
                 <div class="modal" id="modal11" >
                     <div class="modal_content">
                       <div class="modal_header">
@@ -101,13 +131,13 @@
                       </div>
                       <div class="modal-body">
                           <ul class="day_event">
-							<img src="../../images/events/google_ep.png" style="width: 200px; height: auto">
+							<img src="../../images/events/techlunchseries.jpg%20Preview,%20Today%20at%2011.15.28%20PM.png" style="width: 700px; height: auto">
 							<li><br></li>
-                            <li><strong>Event Titile:</strong> &#8194;&#8194;Google Engineering Practicum Info Session </li>
-                            <li><strong>Time:</strong> &#8194;&#8194;5:00p.m. - 7:00p.m.</li>
-                            <li><strong>Location:</strong> &#8194;&#8194;Campus Center 205</li>
+                            <li><strong>Event Titile:</strong> &#8194;&#8194;Tech Lunch Series </li>
+                            <li><strong>Time:</strong> &#8194;&#8194;12:00p.m. - 1:00p.m.</li>
+                            <li><strong>Location:</strong> &#8194;&#8194;Seelye 110</li>
                             <li><strong>Notes: </strong> &#8194;&#8194;Pizza will be served. </li>
-                            <li><strong>Description:</strong>  &#8194;&#8194;Engineering Practicum (EP) is a 12-week internship for first and second-year undergraduate students with a passion for computer science. The program has a focus of providing development opportunities to students from historically underrepresented groups in tech through technical training and professional development. Students from all schools, and students who identify with a group that is historically underrepresented in the technology industry, including but not limited to women, Black, Latinx, Native American, students with disabilities and veterans, are encouraged to apply.</li>
+                            <li><strong>Description:</strong>  &#8194;&#8194;Smithies in CS's Tech Lunch Series is back!!!<br><br>Want to know how to write a technical resume without any industry experiences? Want someone to teach you how to prepare for interviews? Want to learn how to find research opportunities, such as SURF and REU? ..... and if you want to know so many other things, come join us!!!</li>
                           </ul>
 						 
                       </div>
@@ -121,89 +151,148 @@
                         document.getElementById("modal11").style.display = "none";
                     }
                 </script>
-<!-- Event Model: Sep 15 -->
-                <div class="modal" id="modal15" >
+<!-- Event Model: Oct 18 -->
+                <div class="modal" id="modal18" >
                     <div class="modal_content">
                       <div class="modal_header">
-                        <div class="modal_close" id="modal_close15" style="cursor: pointer;">&times;</div>
+                        <div class="modal_close" id="modal_close18" style="cursor: pointer;">&times;</div>
                         <h2 class="modal-title" id="myModalLabel" style="color: dimgrey; margin: auto; margin-left: 30px">Event Preview</h2>
                       </div>
                       <div class="modal-body">
                           <ul class="day_event">
-							<img src="../../images/events/org_fair.jpg" style="height: 200px; width: auto">
+							<img src="../../images/events/techlunchseries.jpg%20Preview,%20Today%20at%2011.15.28%20PM.png" style="width: 700px; height: auto">
 							<li><br></li>
-                            <li><strong>Event Titile:</strong> &#8194;&#8194;Fall Org Fair</li>
-                            <li><strong>Time:</strong> &#8194;&#8194;1:00p.m. - 3:00p.m.</li>
-							  <li><strong>Location:</strong> &#8194;&#8194;Chapin Lawn</li>
+                            <li><strong>Event Titile:</strong> &#8194;&#8194;Tech Lunch Series </li>
+                            <li><strong>Time:</strong> &#8194;&#8194;12:00p.m. - 1:00p.m.</li>
+                            <li><strong>Location:</strong> &#8194;&#8194;Seelye 110</li>
+                            <li><strong>Notes: </strong> &#8194;&#8194;Pizza will be served. </li>
+                            <li><strong>Description:</strong>  &#8194;&#8194;Smithies in CS's Tech Lunch Series is back!!!<br><br>Want to know how to write a technical resume without any industry experiences? Want someone to teach you how to prepare for interviews? Want to learn how to find research opportunities, such as SURF and REU? ..... and if you want to know so many other things, come join us!!!</li>
                           </ul>
+						 
                       </div>
                     </div>
                 </div>
                 <script type="text/javascript">
-                    document.getElementById("button15").onclick = function(){
-                        document.getElementById("modal15").style.display = "block";
+                    document.getElementById("button18").onclick = function(){
+                        document.getElementById("modal18").style.display = "block";
                     }
-                    document.getElementById("modal_close15").onclick = function(){
-                        document.getElementById("modal15").style.display = "none";
+                    document.getElementById("modal_close18").onclick = function(){
+                        document.getElementById("modal18").style.display = "none";
                     }
                 </script>
-<!-- Event Model: Sep 17 -->
-                <div class="modal" id="modal17" >
+<!-- Event Model: Oct 25 -->
+                <div class="modal" id="modal25" >
                     <div class="modal_content">
                       <div class="modal_header">
-                        <div class="modal_close" id="modal_close17" style="cursor: pointer;">&times;</div>
+                        <div class="modal_close" id="modal_close25" style="cursor: pointer;">&times;</div>
                         <h2 class="modal-title" id="myModalLabel" style="color: dimgrey; margin: auto; margin-left: 30px">Event Preview</h2>
                       </div>
                       <div class="modal-body">
                           <ul class="day_event">
-							<img src="../../images/events/google_ep.png" style="width: 200px; height: auto">
+							<img src="../../images/events/techlunchseries.jpg%20Preview,%20Today%20at%2011.15.28%20PM.png" style="width: 700px; height: auto">
 							<li><br></li>
-                            <li><strong>Event Titile:</strong> &#8194;&#8194;Google Full-time Info Session &#38 Resume Workshop </li>
-                            <li><strong>Time:</strong> &#8194;&#8194;12:00p.m. - 1:00p.m. for Full-time Info Session | 5p.m. - 6 p.m. for Resume Workshop</li>
-							<li><strong>Location:</strong> &#8194;&#8194;Room TBD</li>
+                            <li><strong>Event Titile:</strong> &#8194;&#8194;Tech Lunch Series </li>
+                            <li><strong>Time:</strong> &#8194;&#8194;12:00p.m. - 1:00p.m.</li>
+                            <li><strong>Location:</strong> &#8194;&#8194;Seelye 110</li>
+                            <li><strong>Notes: </strong> &#8194;&#8194;Pizza will be served. </li>
+                            <li><strong>Description:</strong>  &#8194;&#8194;Smithies in CS's Tech Lunch Series is back!!!<br><br>Want to know how to write a technical resume without any industry experiences? Want someone to teach you how to prepare for interviews? Want to learn how to find research opportunities, such as SURF and REU? ..... and if you want to know so many other things, come join us!!!</li>
                           </ul>
+						 
                       </div>
                     </div>
                 </div>
                 <script type="text/javascript">
-                    document.getElementById("button17").onclick = function(){
-                        document.getElementById("modal17").style.display = "block";
+                    document.getElementById("button25").onclick = function(){
+                        document.getElementById("modal25").style.display = "block";
                     }
-                    document.getElementById("modal_close17").onclick = function(){
-                        document.getElementById("modal17").style.display = "none";
+                    document.getElementById("modal_close25").onclick = function(){
+                        document.getElementById("modal25").style.display = "none";
                     }
                 </script>
-<!-- Event Model: Sep 19 -->
-                <div class="modal" id="modal19" >
+<!-- Event Model: Oct 13 -->
+                <div class="modal" id="modal13" >
                     <div class="modal_content">
                       <div class="modal_header">
-                        <div class="modal_close" id="modal_close19" style="cursor: pointer;">&times;</div>
+                        <div class="modal_close" id="modal_close13" style="cursor: pointer;">&times;</div>
                         <h2 class="modal-title" id="myModalLabel" style="color: dimgrey; margin: auto; margin-left: 30px">Event Preview</h2>
                       </div>
                       <div class="modal-body">
                           <ul class="day_event">
-							<img src="../../images/events/coinbase.png" style="width: 200px; height: auto">
+							<img src="../../images/events/GameDev.jpg%20Preview,%20Today%20at%2011.15.58%20PM.png" style="width: 400px; height: auto">
 							<li><br></li>
-                            <li><strong>Event Titile:</strong> &#8194;&#8194;Cryptocurrency and Blockchain Workshop</li>
-                            <li><strong>Time:</strong> &#8194;&#8194;4:30p.m. - 6:30p.m.</li>
-							<li><strong>Location:</strong> &#8194;&#8194;Room TBD</li>
-							<li><strong>Hosted By:</strong> &#8194;&#8194;Coinbase</li>
-							<li><strong>Notes: </strong> &#8194;&#8194;Pizza will be served</li>
-							<li><strong>Description:</strong> &#8194;&#8194;
-							  Have you ever heard of cryptocurrency, bitcoin, and blockchain? They are hot words in the FinTech industry. Don't really know what they are but want to learn more? Come to our cryptocurrency &#38 blockchain session hosted by Coinbase! Want to learn about more opportunities at Coinbase? Come to the event! A Coinbase recruiter will hold an info session after the crypto workshop for internship and full time opportunities!</li>
+                            <li><strong>Event Titile:</strong> &#8194;&#8194;Tech Lunch Series </li>
+                            <li><strong>Time:</strong> &#8194;&#8194; TBD</li>
+                            <li><strong>Location:</strong> &#8194;&#8194;Seelye 110</li>
+                            <li><strong>Description:</strong>  &#8194;&#8194;Are you interested in making video games? Want to break into the tech industry but don't have prior technical experience? Projects are the best way to build that experience up and impress the recruiters for any technical role! Come to "Smithies Make Games," a weekly game dev workshop where Smithies learn how to use Unity and write code in C# to develop their own games!</li>
                           </ul>
+						 
                       </div>
                     </div>
                 </div>
                 <script type="text/javascript">
-                    document.getElementById("button19").onclick = function(){
-                        document.getElementById("modal19").style.display = "block";
+                    document.getElementById("button13").onclick = function(){
+                        document.getElementById("modal13").style.display = "block";
                     }
-                    document.getElementById("modal_close19").onclick = function(){
-                        document.getElementById("modal19").style.display = "none";
+                    document.getElementById("modal_close13").onclick = function(){
+                        document.getElementById("modal13").style.display = "none";
                     }
                 </script>
-				
+<!-- Event Model: Oct 20 -->
+                <div class="modal" id="modal20" >
+                    <div class="modal_content">
+                      <div class="modal_header">
+                        <div class="modal_close" id="modal_close20" style="cursor: pointer;">&times;</div>
+                        <h2 class="modal-title" id="myModalLabel" style="color: dimgrey; margin: auto; margin-left: 30px">Event Preview</h2>
+                      </div>
+                      <div class="modal-body">
+                          <ul class="day_event">
+							<img src="../../images/events/GameDev.jpg%20Preview,%20Today%20at%2011.15.58%20PM.png" style="width: 400px; height: auto">
+							<li><br></li>
+                            <li><strong>Event Titile:</strong> &#8194;&#8194;Tech Lunch Series </li>
+                            <li><strong>Time:</strong> &#8194;&#8194; TBD</li>
+                            <li><strong>Location:</strong> &#8194;&#8194;Seelye 110</li>
+                            <li><strong>Description:</strong>  &#8194;&#8194;Are you interested in making video games? Want to break into the tech industry but don't have prior technical experience? Projects are the best way to build that experience up and impress the recruiters for any technical role! Come to "Smithies Make Games," a weekly game dev workshop where Smithies learn how to use Unity and write code in C# to develop their own games!</li>
+                          </ul>
+						 
+                      </div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    document.getElementById("button20").onclick = function(){
+                        document.getElementById("modal20").style.display = "block";
+                    }
+                    document.getElementById("modal_close20").onclick = function(){
+                        document.getElementById("modal20").style.display = "none";
+                    }
+                </script>
+<!-- Event Model: Oct 27 -->
+                <div class="modal" id="modal27" >
+                    <div class="modal_content">
+                      <div class="modal_header">
+                        <div class="modal_close" id="modal_close27" style="cursor: pointer;">&times;</div>
+                        <h2 class="modal-title" id="myModalLabel" style="color: dimgrey; margin: auto; margin-left: 30px">Event Preview</h2>
+                      </div>
+                      <div class="modal-body">
+                          <ul class="day_event">
+							<img src="../../images/events/GameDev.jpg%20Preview,%20Today%20at%2011.15.58%20PM.png" style="width: 400px; height: auto">
+							<li><br></li>
+                            <li><strong>Event Titile:</strong> &#8194;&#8194;Tech Lunch Series </li>
+                            <li><strong>Time:</strong> &#8194;&#8194; TBD</li>
+                            <li><strong>Location:</strong> &#8194;&#8194;Seelye 110</li>
+                            <li><strong>Description:</strong>  &#8194;&#8194;Are you interested in making video games? Want to break into the tech industry but don't have prior technical experience? Projects are the best way to build that experience up and impress the recruiters for any technical role! Come to "Smithies Make Games," a weekly game dev workshop where Smithies learn how to use Unity and write code in C# to develop their own games!</li>
+                          </ul>
+						 
+                      </div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    document.getElementById("button27").onclick = function(){
+                        document.getElementById("modal27").style.display = "block";
+                    }
+                    document.getElementById("modal_close27").onclick = function(){
+                        document.getElementById("modal27").style.display = "none";
+                    }
+                </script>
 <!-- Posts -->
 
 				<br><br><br>
@@ -218,6 +307,13 @@
 										<a href="0919/index.html"
 										   class="posts__post__title">
 											<h2>[Sept 19th, 2018]</h2>
+											<h2>&#8194&#8194&#8194&#8194Crypocurrency and Blockchain Workshop with Coinbase&#8194&#8194&#8194&#8194</h2>
+										</a>
+									</article>
+									<article class="posts__post">
+										<a href="0917/index.html"
+										   class="posts__post__title">
+											<h2>[Sept 17th, 2018]</h2>
 											<h2>&#8194&#8194&#8194&#8194&#8194&#8194&#8194&#8194&#8194Google Resume Workshop&#8194&#8194&#8194&#8194&#8194&#8194&#8194&#8194&#8194</h2>
 										</a>
 									</article>

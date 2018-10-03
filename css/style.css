@@ -10,6 +10,7 @@
   list-style: none;
   text-decoration: none;
   font-family: 'Roboto', 'Open Sans', Arial, Helvetica;
+  z-index: 0;
 }
 
 body{
@@ -588,6 +589,7 @@ body {
     padding: 20px;
     border: 1px solid #888;
     width: 60%;
+	z-index: 1
     
 }
 
